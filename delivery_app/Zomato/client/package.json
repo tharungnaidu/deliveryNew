@@ -27,12 +27,14 @@
     "redux": "^4.2.1",
     "web-vitals": "^3.3.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build --no-eslint",
+  "predeploy": "npm run build",
+  "deploy": "npm run deploy",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
